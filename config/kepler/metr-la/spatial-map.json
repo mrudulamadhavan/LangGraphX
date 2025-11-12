@@ -1,0 +1,52 @@
+{
+    "version": "v1",
+    "config": {
+        "visState": {
+            "layers": [
+                {
+                    "id": "msruhg9",
+                    "type": "point",
+                    "config": {
+                        "dataId": "data",
+                        "label": "Point",
+                        "columns": {
+                            "lat": "latitude",
+                            "lng": "longitude",
+                            "altitude": null
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "radius": 10,
+                            "filled": true
+                        }
+                    }
+                }
+            ],
+            "interactionConfig": {
+                "tooltip": {
+                    "fieldsToShow": {
+                        "data": [
+                            {
+                                "name": "sensor_id",
+                                "format": null
+                            }
+                        ]
+                    },
+                    "enabled": true
+                },
+                "coordinate": {
+                    "enabled": true
+                }
+            }
+        },
+        "mapState": {
+            "bearing": 24,
+            "dragRotate": true,
+            "latitude": 34.132325,
+            "longitude": -118.35985,
+            "pitch": 50,
+            "zoom": 10,
+            "isSplit": false
+        }
+    }
+}
